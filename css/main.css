@@ -1,0 +1,40 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --green: #00ff00;
+    --btnBg: var(--black);
+    --btnFont:var(--green);
+}
+.tema-claro{
+    color: var(--black);
+    background-color: var(--green);
+    --btnBg: var(--black);
+    --btnFont:var(--white);
+}
+.tema-escuro{
+    color: var(--green);
+    background-color: var(--black);
+    --btnBg: var(--white);
+    --btnFont:var(--green);
+}
+.corpo{
+    font-family: monospace;
+}
+
+li{
+    list-style: none;
+}
+.lista{
+    list-style:circle;
+}
+.btn{
+    color: var(--btnFont);
+    background: var(--btnBg);
+    position:absolute;
+    width: 60px;
+    height: 50px;
+    right: 30px;
+    left: 40px;
+    border: none;
+    border-radius: 50%;
+}
